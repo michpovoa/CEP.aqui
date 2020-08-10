@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #9EC7D9;
+    font-family: roboto, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+}
+
+#logo{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+#geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.entradas input{
+    outline: none;
+    text-align: center;
+    height: 30px;
+}
+
+#estado{
+    margin-right: 20px;
+}
+
+#botao{
+    width: 80px;
+    outline: none;
+    border: none;
+}
+
+#botao:hover{
+    cursor: pointer;
+}
+
+#resultado{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+#caixa{
+    font-style: italic;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 5px;
+    width: 400px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+#caixa p{
+    font-size: 18px;
+    margin: 0 0 0 20px
+}
+
+#semRetorno{
+    font-style: italic;
+    background-color: white;
+    width: 500px;
+    border: 1px solid black;
+    height: 300px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#semRetorno p{
+    font-size: 30px;
+    text-align: center;
+}
+
+#back{
+    position: fixed;
+    top: 10px;
+    left: 5px;
+    display: none;
+    width: 60px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+#back:hover{
+    cursor: pointer;
+}
